@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8115DE2DC2CA5B00A7C0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8115DD2DC2CA5B00A7C0E8 /* AppDelegate.swift */; };
+		5D8115E02DC2CA5B00A7C0E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8115DF2DC2CA5B00A7C0E8 /* SceneDelegate.swift */; };
+		5D8115E22DC2CA5B00A7C0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8115E12DC2CA5B00A7C0E8 /* ViewController.swift */; };
+		5D8115E52DC2CA5B00A7C0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8115E32DC2CA5B00A7C0E8 /* Main.storyboard */; };
+		5D8115E72DC2CA5E00A7C0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8115E62DC2CA5E00A7C0E8 /* Assets.xcassets */; };
+		5D8115EA2DC2CA5E00A7C0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8115E82DC2CA5E00A7C0E8 /* LaunchScreen.storyboard */; };
+		5D8115F52DC2CA5E00A7C0E8 /* mobil2appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8115F42DC2CA5E00A7C0E8 /* mobil2appTests.swift */; };
+		5D8115FF2DC2CA5E00A7C0E8 /* mobil2appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8115FE2DC2CA5E00A7C0E8 /* mobil2appUITests.swift */; };
+		5D8116012DC2CA5E00A7C0E8 /* mobil2appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8116002DC2CA5E00A7C0E8 /* mobil2appUITestsLaunchTests.swift */; };
+		5D8C091C2DD24CB700D8D340 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C091B2DD24CB700D8D340 /* LoginViewController.swift */; };
+		5DFAAA182DC95AC300DCA905 /* PostaKoduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAAA172DC95AC300DCA905 /* PostaKoduViewController.swift */; };
+		5DFAAA1B2DCB984600DCA905 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAAA1A2DCB984600DCA905 /* Alamofire */; };
+		5DFAAA1D2DCB984600DCA905 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAAA1C2DCB984600DCA905 /* AlamofireDynamic */; };
+		5DFAAA1E2DCB992D00DCA905 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAAA1C2DCB984600DCA905 /* AlamofireDynamic */; };
+		5DFAAA212DCB9D0100DCA905 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAAA202DCB9D0100DCA905 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D8115F12DC2CA5E00A7C0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8115D22DC2CA5B00A7C0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8115D92DC2CA5B00A7C0E8;
+			remoteInfo = mobil2app;
+		};
+		5D8115FB2DC2CA5E00A7C0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8115D22DC2CA5B00A7C0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8115D92DC2CA5B00A7C0E8;
+			remoteInfo = mobil2app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DFAAA1F2DCB992D00DCA905 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5DFAAA1E2DCB992D00DCA905 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D8115DA2DC2CA5B00A7C0E8 /* mobil2app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobil2app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8115DD2DC2CA5B00A7C0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D8115DF2DC2CA5B00A7C0E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D8115E12DC2CA5B00A7C0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D8115E42DC2CA5B00A7C0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D8115E62DC2CA5E00A7C0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8115E92DC2CA5E00A7C0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D8115EB2DC2CA5E00A7C0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8115F02DC2CA5E00A7C0E8 /* mobil2appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobil2appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8115F42DC2CA5E00A7C0E8 /* mobil2appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobil2appTests.swift; sourceTree = "<group>"; };
+		5D8115FA2DC2CA5E00A7C0E8 /* mobil2appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobil2appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8115FE2DC2CA5E00A7C0E8 /* mobil2appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobil2appUITests.swift; sourceTree = "<group>"; };
+		5D8116002DC2CA5E00A7C0E8 /* mobil2appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobil2appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D8C091B2DD24CB700D8D340 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DFAAA172DC95AC300DCA905 /* PostaKoduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostaKoduViewController.swift; sourceTree = "<group>"; };
+		5DFAAA202DCB9D0100DCA905 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D8115D72DC2CA5B00A7C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFAAA1B2DCB984600DCA905 /* Alamofire in Frameworks */,
+				5DFAAA1D2DCB984600DCA905 /* AlamofireDynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115ED2DC2CA5E00A7C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115F72DC2CA5E00A7C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D8115D12DC2CA5B00A7C0E8 = {
+			isa = PBXGroup;
+			children = (
+				5D8115DC2DC2CA5B00A7C0E8 /* mobil2app */,
+				5D8115F32DC2CA5E00A7C0E8 /* mobil2appTests */,
+				5D8115FD2DC2CA5E00A7C0E8 /* mobil2appUITests */,
+				5D8115DB2DC2CA5B00A7C0E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8115DB2DC2CA5B00A7C0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8115DA2DC2CA5B00A7C0E8 /* mobil2app.app */,
+				5D8115F02DC2CA5E00A7C0E8 /* mobil2appTests.xctest */,
+				5D8115FA2DC2CA5E00A7C0E8 /* mobil2appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8115DC2DC2CA5B00A7C0E8 /* mobil2app */ = {
+			isa = PBXGroup;
+			children = (
+				5D8C091B2DD24CB700D8D340 /* LoginViewController.swift */,
+				5D8115DD2DC2CA5B00A7C0E8 /* AppDelegate.swift */,
+				5D8115DF2DC2CA5B00A7C0E8 /* SceneDelegate.swift */,
+				5D8115E12DC2CA5B00A7C0E8 /* ViewController.swift */,
+				5D8115E32DC2CA5B00A7C0E8 /* Main.storyboard */,
+				5DFAAA172DC95AC300DCA905 /* PostaKoduViewController.swift */,
+				5D8115E62DC2CA5E00A7C0E8 /* Assets.xcassets */,
+				5D8115E82DC2CA5E00A7C0E8 /* LaunchScreen.storyboard */,
+				5D8115EB2DC2CA5E00A7C0E8 /* Info.plist */,
+				5DFAAA202DCB9D0100DCA905 /* Models.swift */,
+			);
+			path = mobil2app;
+			sourceTree = "<group>";
+		};
+		5D8115F32DC2CA5E00A7C0E8 /* mobil2appTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D8115F42DC2CA5E00A7C0E8 /* mobil2appTests.swift */,
+			);
+			path = mobil2appTests;
+			sourceTree = "<group>";
+		};
+		5D8115FD2DC2CA5E00A7C0E8 /* mobil2appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D8115FE2DC2CA5E00A7C0E8 /* mobil2appUITests.swift */,
+				5D8116002DC2CA5E00A7C0E8 /* mobil2appUITestsLaunchTests.swift */,
+			);
+			path = mobil2appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8115D92DC2CA5B00A7C0E8 /* mobil2app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8116042DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2app" */;
+			buildPhases = (
+				5D8115D62DC2CA5B00A7C0E8 /* Sources */,
+				5D8115D72DC2CA5B00A7C0E8 /* Frameworks */,
+				5D8115D82DC2CA5B00A7C0E8 /* Resources */,
+				5DFAAA1F2DCB992D00DCA905 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobil2app;
+			packageProductDependencies = (
+				5DFAAA1A2DCB984600DCA905 /* Alamofire */,
+				5DFAAA1C2DCB984600DCA905 /* AlamofireDynamic */,
+			);
+			productName = mobil2app;
+			productReference = 5D8115DA2DC2CA5B00A7C0E8 /* mobil2app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D8115EF2DC2CA5E00A7C0E8 /* mobil2appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8116072DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2appTests" */;
+			buildPhases = (
+				5D8115EC2DC2CA5E00A7C0E8 /* Sources */,
+				5D8115ED2DC2CA5E00A7C0E8 /* Frameworks */,
+				5D8115EE2DC2CA5E00A7C0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8115F22DC2CA5E00A7C0E8 /* PBXTargetDependency */,
+			);
+			name = mobil2appTests;
+			productName = mobil2appTests;
+			productReference = 5D8115F02DC2CA5E00A7C0E8 /* mobil2appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D8115F92DC2CA5E00A7C0E8 /* mobil2appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D81160A2DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2appUITests" */;
+			buildPhases = (
+				5D8115F62DC2CA5E00A7C0E8 /* Sources */,
+				5D8115F72DC2CA5E00A7C0E8 /* Frameworks */,
+				5D8115F82DC2CA5E00A7C0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8115FC2DC2CA5E00A7C0E8 /* PBXTargetDependency */,
+			);
+			name = mobil2appUITests;
+			productName = mobil2appUITests;
+			productReference = 5D8115FA2DC2CA5E00A7C0E8 /* mobil2appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8115D22DC2CA5B00A7C0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5D8115D92DC2CA5B00A7C0E8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5D8115EF2DC2CA5E00A7C0E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5D8115D92DC2CA5B00A7C0E8;
+					};
+					5D8115F92DC2CA5E00A7C0E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5D8115D92DC2CA5B00A7C0E8;
+					};
+				};
+			};
+			buildConfigurationList = 5D8115D52DC2CA5B00A7C0E8 /* Build configuration list for PBXProject "mobil2app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D8115D12DC2CA5B00A7C0E8;
+			packageReferences = (
+				5DFAAA192DCAAA5E00DCA905 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 5D8115DB2DC2CA5B00A7C0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8115D92DC2CA5B00A7C0E8 /* mobil2app */,
+				5D8115EF2DC2CA5E00A7C0E8 /* mobil2appTests */,
+				5D8115F92DC2CA5E00A7C0E8 /* mobil2appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8115D82DC2CA5B00A7C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8115EA2DC2CA5E00A7C0E8 /* LaunchScreen.storyboard in Resources */,
+				5D8115E72DC2CA5E00A7C0E8 /* Assets.xcassets in Resources */,
+				5D8115E52DC2CA5B00A7C0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115EE2DC2CA5E00A7C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115F82DC2CA5E00A7C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8115D62DC2CA5B00A7C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8C091C2DD24CB700D8D340 /* LoginViewController.swift in Sources */,
+				5D8115E22DC2CA5B00A7C0E8 /* ViewController.swift in Sources */,
+				5DFAAA182DC95AC300DCA905 /* PostaKoduViewController.swift in Sources */,
+				5D8115DE2DC2CA5B00A7C0E8 /* AppDelegate.swift in Sources */,
+				5D8115E02DC2CA5B00A7C0E8 /* SceneDelegate.swift in Sources */,
+				5DFAAA212DCB9D0100DCA905 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115EC2DC2CA5E00A7C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8115F52DC2CA5E00A7C0E8 /* mobil2appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8115F62DC2CA5E00A7C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8115FF2DC2CA5E00A7C0E8 /* mobil2appUITests.swift in Sources */,
+				5D8116012DC2CA5E00A7C0E8 /* mobil2appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D8115F22DC2CA5E00A7C0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8115D92DC2CA5B00A7C0E8 /* mobil2app */;
+			targetProxy = 5D8115F12DC2CA5E00A7C0E8 /* PBXContainerItemProxy */;
+		};
+		5D8115FC2DC2CA5E00A7C0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8115D92DC2CA5B00A7C0E8 /* mobil2app */;
+			targetProxy = 5D8115FB2DC2CA5E00A7C0E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D8115E32DC2CA5B00A7C0E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8115E42DC2CA5B00A7C0E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D8115E82DC2CA5E00A7C0E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8115E92DC2CA5E00A7C0E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D8116022DC2CA5E00A7C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D8116032DC2CA5E00A7C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D8116052DC2CA5E00A7C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobil2app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D8116062DC2CA5E00A7C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobil2app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D8116082DC2CA5E00A7C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobil2app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mobil2app";
+			};
+			name = Debug;
+		};
+		5D8116092DC2CA5E00A7C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobil2app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mobil2app";
+			};
+			name = Release;
+		};
+		5D81160B2DC2CA5E00A7C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mobil2app;
+			};
+			name = Debug;
+		};
+		5D81160C2DC2CA5E00A7C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hasret.mobil2appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mobil2app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8115D52DC2CA5B00A7C0E8 /* Build configuration list for PBXProject "mobil2app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8116022DC2CA5E00A7C0E8 /* Debug */,
+				5D8116032DC2CA5E00A7C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8116042DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8116052DC2CA5E00A7C0E8 /* Debug */,
+				5D8116062DC2CA5E00A7C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8116072DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8116082DC2CA5E00A7C0E8 /* Debug */,
+				5D8116092DC2CA5E00A7C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D81160A2DC2CA5E00A7C0E8 /* Build configuration list for PBXNativeTarget "mobil2appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D81160B2DC2CA5E00A7C0E8 /* Debug */,
+				5D81160C2DC2CA5E00A7C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DFAAA192DCAAA5E00DCA905 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DFAAA1A2DCB984600DCA905 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DFAAA192DCAAA5E00DCA905 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5DFAAA1C2DCB984600DCA905 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DFAAA192DCAAA5E00DCA905 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D8115D22DC2CA5B00A7C0E8 /* Project object */;
+}
